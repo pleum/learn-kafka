@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start:publisher": "tsx src/publisher.ts",
+    "start:consumer": "tsx src/consumer.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.2.0",
+    "hono": "^3.9.0",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "tsx": "^3.14.0"
+  }
+}
